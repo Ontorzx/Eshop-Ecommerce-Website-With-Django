@@ -1,0 +1,27 @@
+{% extends 'commerce/base.html' %}
+{% load static %}
+
+{% block title %}
+{{setting.title}}
+{% endblock title %}
+{% block description %}
+
+{% endblock description %}
+{% block keyword %}
+
+{% endblock keyword %}
+{% block header %}
+    {% include "commerce/header.html" %}
+{% endblock header %}
+{% block sidebar %}
+
+{% endblock sidebar %}
+{% block slider %}
+        {% include "commerce/slider.html" %}
+{% endblock slider %}
+{% block content %}
+    {% include "commerce/content.html" %}     
+{% endblock content %}
+{% block footer %}
+      {% include "commerce/footer.html" %}      
+{% endblock footer %}
